@@ -1,4 +1,7 @@
-let nomes = ["Vinicius", "Isabelly", "Lívia", "Miguel", "Maria", "Isabella", "Wesley"];
+let nomes = [];
+for (let i = 0; i < 7; i++) {
+    nomes[i] = prompt("Digite o nome da pessoa:");
+}
 
 console.log("Nomes em ordem inversa:");
 
